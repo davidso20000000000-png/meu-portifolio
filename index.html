@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de David — Desenvolvedor focado em criar experiências web modernas, rápidas e elegantes." />
+  <title>David • Desenvolvedor Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portifolio.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo">&lt;David <span>/&gt;</span></a>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" aria-label="Alternar tema">
+      <span class="icon-sun">☀️</span>
+      <span class="icon-moon">🌙</span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <span class="badge">● Disponível para projetos</span>
+        <h1>Olá, eu sou <span class="gradient-text">David</span></h1>
+        <h2 class="subtitle">Desenvolvedor Web &amp; Entusiasta de Tecnologia</h2>
+        <p class="lead">
+          Crio sites e aplicações web modernas, focando em design limpo,
+          performance e uma ótima experiência pro usuário.
+        </p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-ghost">Entrar em contato</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="foto.jpg" alt="Foto de David" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+      <div class="section-head">
+        <span class="section-tag">01 — Sobre</span>
+        <h2>Quem sou eu</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Sou um desenvolvedor apaixonado por <strong>desenvolvimento web</strong>,
+            sempre buscando aprender novas tecnologias e melhorar minhas habilidades.
+            Gosto de transformar ideias em interfaces reais, funcionais e bonitas.
+          </p>
+          <p>
+            Minha área de foco é o <strong>front-end</strong>, onde combino
+            HTML, CSS e JavaScript pra criar experiências fluidas. Também
+            estudo back-end e bancos de dados pra construir aplicações completas.
+          </p>
+          <p>
+            Quando não estou codando, tô explorando novos frameworks, jogando
+            ou aprendendo algo novo na área de tech.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Anos estudando</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Projetos pessoais</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Vontade de aprender</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <span class="section-tag">02 — Skills</span>
+        <h2>Tecnologias que uso</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>Front-end</h3>
+          <ul>
+            <li>HTML5 &amp; CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Back-end</h3>
+          <ul>
+            <li>Node.js</li>
+            <li>APIs REST</li>
+            <li>Banco de dados</li>
+            <li>Autenticação</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>Ferramentas</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Terminal / Linux</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="section-head">
+        <span class="section-tag">03 — Projetos</span>
+        <h2>Alguns projetos meus</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb">💼</div>
+          <h3>Portfólio Pessoal</h3>
+          <p>Site pessoal feito do zero com HTML, CSS e JavaScript puro, com modo escuro e design responsivo.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JS</span>
+          </div>
+          <a href="https://davidso20000000000-png.github.io/meu-portifolio/" target="_blank" rel="noopener" class="project-link">Ver projeto →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">🌐</div>
+          <h3>Landing Page</h3>
+          <p>Página de apresentação para um produto fictício, focada em conversão e design moderno.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+          <a href="#" class="project-link">Em breve →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">🚀</div>
+          <h3>App Web</h3>
+          <p>Aplicação interativa explorando conceitos de SPA, consumo de API e gerenciamento de estado.</p>
+          <div class="tags">
+            <span>React</span><span>API</span>
+          </div>
+          <a href="#" class="project-link">Em breve →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section contact">
+      <div class="section-head center">
+        <span class="section-tag">04 — Contato</span>
+        <h2>Vamos conversar?</h2>
+        <p class="lead">Tô aberto a oportunidades, parcerias ou só um bom papo sobre tech.</p>
+      </div>
+      <div class="contact-actions">
+        <a href="mailto:david@email.com" class="btn btn-primary">📧 Enviar email</a>
+        <a href="https://github.com/davidso20000000000-png" target="_blank" rel="noopener" class="btn btn-ghost">🐙 GitHub</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> David. Feito com 💚 e muito café.</p>
+  </footer>
+
+  <script>
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme') || 'dark';
+    root.setAttribute('data-theme', saved);
+    toggle.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
+
+
